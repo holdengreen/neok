@@ -1,1 +1,1 @@
-web: python3 bot.py -u neokpop -o $OAUTH_KEY -s $STREAM_KEY
+worker: python3 main.py -u neokpop -o $OAUTH_KEY -s $STREAM_KEY

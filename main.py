@@ -5,6 +5,8 @@ import argparse
 import time
 import numpy as np
 
+print("Entering Code!")
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
     required = parser.add_argument_group('required arguments')
@@ -54,7 +56,7 @@ if __name__ == "__main__":
 
             # process all the messages
             if received:
-                print("0")
+                print("RECEIVED")
                 for chat_message in received:
                     print("Got a message '%s' from %s" % (
                         chat_message['message'],
@@ -97,3 +99,5 @@ if __name__ == "__main__":
             # the buffers run dry, audio and video will go out of sync.
             else:
                 time.sleep(.001)
+
+print("Leaving Code!")
