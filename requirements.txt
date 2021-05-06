@@ -1,1 +1,1 @@
-git+https://github.com/317070/python-twitch-stream.git
+git+https://github.com/holdengreen/python-twitch-stream.git
