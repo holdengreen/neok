@@ -1,2 +1,1 @@
-python-twitch-stream
-ffmpeg
+git+https://github.com/317070/python-twitch-stream.git
